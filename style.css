@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Header
 ====================== */
 
-.header {
+.header, .navbar {
     background-color: #007765;
 }
 
@@ -51,18 +51,22 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
-.nav__link {
+.header__logo {
+    max-width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 388px;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
     padding-right: 8px;
     color: #fff;
 
     font-size: 24px;
     font-weight: 500;
-    border-right: 2px solid #fff;
 }
 
-.nav__link:last-child {
-    border-right: 0px;
-}
 
 /* Intro
 ====================== */
@@ -191,12 +195,99 @@ h1, h2, h3, h4, h5, h6, p {
     color: #fff;
 }
 
+/* Media
+===================== */
 
+@media (max-width: 1200px) {
+    .navbar-nav {
+        margin-left: 150px;
+    }
+}
 
+@media (max-width: 990px) {
+    .together__text {
+        padding: 40px 0;
+        font-size: 40px;
+    }
+}
+@media (max-width: 770px) {
+     .nav {
+        display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 100%;
 
+        background-color: #007765;
+    }
 
+    .nav__toggle--active {
+        display: block;
+    }
 
+    .nav__link {
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+    }
 
+    .nav__toggle {
+        display: block;
+        padding: 10px 0;
+    }
+    .header__inner {
+        padding: 10px;
+    }
+    .nav__link {
+        font-size: 18px;
+    }
+    .intro__title {
+        font-size: 45px;
+    }
+    .container__header {
+        padding: 20px 0 10px 0;
+        font-size: 40px;
+    }
+    .problem__text {
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    .together__text {
+        padding: 45px 0;
+        font-size: 30px;
+    }
+    .coin__text {
+        font-size: 20px;
+    }
+    .coin {
+        padding-bottom: 40px;
+    }
+    .team__name {
+        font-size: 18px;
+    }
+    .team__prof {
+        font-size: 14px;
+    }
+    .footer__text {
+        padding: 35px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .problem__text {
+        font-size: 22px;
+    }
+    .team__item {
+        padding: 0 0 20px 0;
+        width: 50%;
+    }
+}
+
+@media (max-width: 440px)  {
+    .team__item {
+        width: 100%;
+    }
+}
 
 
 
