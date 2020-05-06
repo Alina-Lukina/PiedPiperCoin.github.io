@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 1.6;
+    color: #000;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Page
+========================= */
+.page {
+    overflow: hidden;
+}
+
+
+/* Container
+========================= */
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+/* Header
+====================== */
+
+.header {
+    background-color: #007765;
+}
+
+.header__inner {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav__link {
+    padding-right: 8px;
+    color: #fff;
+
+    font-size: 24px;
+    font-weight: 500;
+    border-right: 2px solid #fff;
+}
+
+.nav__link:last-child {
+    border-right: 0px;
+}
+
+/* Intro
+====================== */
+
+.intro {
+    background: url(img/intro.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.intro__title {
+    padding: 160px 0;
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Container header
+====================== */
+
+.container__header {
+    padding: 48px 0 16px 0;
+
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+
+    color: #007765;
+}
+
+/* Problem
+================== */
+
+.problem__text {
+    padding-bottom: 92px;
+
+    font-size: 32px;
+    color: #000;
+
+}
+
+/* Together
+============== */
+
+.together {
+    background: url(img/together.png) center no-repeat;
+    text-align: center;
+}
+
+.together__text {
+    padding: 90px 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+
+    color: #fff;
+    text-align: center;
+}
+
+/* Coin
+================= */
+
+.coin {
+    padding-bottom: 92px;
+}
+
+.coin__text {
+    font-size: 32px;
+    color: #000;
+}
+
+.coin__text--1 {
+    padding-bottom: 40px;
+}
+
+.coin__img {
+    float: left;
+    margin-right: 48px;
+}
+
+/* Team
+================= */
+
+.container--team {
+    background-color: #eee;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team__item {
+    padding-top: 42px;
+    padding-bottom: 40px;
+    width: 33.333%;
+    text-align: center;
+}
+
+.team__name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+}
+
+.team__prof {
+    font-size: 18px;
+    font-style: italic;
+    color: #000;
+}
+
+/* Footer
+================= */
+
+.footer {
+    background-color: #333;
+}
+
+.footer__text {
+    padding: 50px 0;
+
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
